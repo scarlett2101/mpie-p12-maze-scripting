@@ -28,7 +28,7 @@ In this practical, you will write a script that implements the control mechanism
 
 https://www.youtube.com/watch?v=4gN5gCQO_g8
 
-The tilting should be controlled using Horizontal and Vertical axes of the Unity input system, which by default is mapped to the allow keys and, e.g., the analogue stick of a game pad. You should make your script so that movement on the horizontal axis (left / right) controls tilting around the z-axis and movement on the vertical axis (up / down) controls tilting around the x-axis.
+The tilting should be controlled using Horizontal and Vertical axes of the Unity input system, which by default is mapped to the arrow keys and, e.g., the analogue stick of a game pad. You should make your script so that movement on the horizontal axis (left / right) controls tilting around the z-axis and movement on the vertical axis (up / down) controls tilting around the x-axis.
 
 To implement this control mechanism you should write a C# script that manipulates the transform of the “Maze” Game Object. This script should have at least one public variable, which limits the amount that the maze can tilt along each axis in degrees (beware, you may introduce an annoying bug if this number is too large).
 
